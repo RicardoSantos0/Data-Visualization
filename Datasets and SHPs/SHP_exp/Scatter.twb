@@ -1,0 +1,890 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0217.1203                               -->
+<workbook original-version='18.1' source-build='2020.4.2 (20204.21.0217.1203)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='results_poster_1' inline='true' name='federated.12h6s1v1ppsrhy15ibp180ltkz3y' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='results_poster_1' name='textscan.1ow7n550njdhq111zk9tw0d622ft'>
+            <connection class='textscan' directory='C:/Users/Ricardo Santos/Desktop/Mestrado Ricardo/Ano 1/Spring Semester/Data Viz/Covid Proj/Data-Visualization/Datasets and SHPs/SHP_exp' filename='results_poster_1.csv' password='' port='0' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ow7n550njdhq111zk9tw0d622ft' name='results_poster_1.csv' table='[results_poster_1#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='pt_PT' separator=';'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Country' ordinal='1' />
+            <column datatype='real' name='GDP current prices in  2020 (Bilions U.S. dollar)' ordinal='2' />
+            <column datatype='real' name='Population in 2020 (Millions)' ordinal='3' />
+            <column datatype='real' name='GDP p/capita' ordinal='4' />
+            <column datatype='string' name='Labs' ordinal='5' />
+            <column datatype='real' name='vaccines' ordinal='6' />
+            <column datatype='string' name='Potential (1=yes, 0=no)1' ordinal='7' />
+            <column datatype='real' name='Population' ordinal='8' />
+            <column datatype='real' name='Percent_pop_covered' ordinal='9' />
+            <column datatype='real' name='People_covered' ordinal='10' />
+            <column datatype='date' name='last_update' ordinal='11' />
+            <column datatype='integer' name='total_vaccinations' ordinal='12' />
+            <column datatype='integer' name='people_vaccinated' ordinal='13' />
+            <column datatype='integer' name='people_fully_vaccinated' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ow7n550njdhq111zk9tw0d622ft' name='results_poster_1.csv' table='[results_poster_1#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='pt_PT' separator=';'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Country' ordinal='1' />
+            <column datatype='real' name='GDP current prices in  2020 (Bilions U.S. dollar)' ordinal='2' />
+            <column datatype='real' name='Population in 2020 (Millions)' ordinal='3' />
+            <column datatype='real' name='GDP p/capita' ordinal='4' />
+            <column datatype='string' name='Labs' ordinal='5' />
+            <column datatype='real' name='vaccines' ordinal='6' />
+            <column datatype='string' name='Potential (1=yes, 0=no)1' ordinal='7' />
+            <column datatype='real' name='Population' ordinal='8' />
+            <column datatype='real' name='Percent_pop_covered' ordinal='9' />
+            <column datatype='real' name='People_covered' ordinal='10' />
+            <column datatype='date' name='last_update' ordinal='11' />
+            <column datatype='integer' name='total_vaccinations' ordinal='12' />
+            <column datatype='integer' name='people_vaccinated' ordinal='13' />
+            <column datatype='integer' name='people_fully_vaccinated' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;pt_PT&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;pt_PT&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RPT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GDP current prices in  2020 (Bilions U.S. dollar)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GDP current prices in  2020 (Bilions U.S. dollar)]</local-name>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias>GDP current prices in  2020 (Bilions U.S. dollar)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population in 2020 (Millions)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population in 2020 (Millions)]</local-name>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias>Population in 2020 (Millions)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GDP p/capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GDP p/capita]</local-name>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias>GDP p/capita</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Labs</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Labs]</local-name>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias>Labs</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RPT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vaccines</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[vaccines]</local-name>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias>vaccines</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Potential (1=yes, 0=no)1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Potential (1=yes, 0=no)1]</local-name>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias>Potential (1=yes, 0=no)1</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RPT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percent_pop_covered</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percent_pop_covered]</local-name>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias>Percent_pop_covered</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>People_covered</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[People_covered]</local-name>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias>People_covered</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_update</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[last_update]</local-name>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias>last_update</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_vaccinations</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_vaccinations]</local-name>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias>total_vaccinations</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>people_vaccinated</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[people_vaccinated]</local-name>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias>people_vaccinated</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>people_fully_vaccinated</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[people_fully_vaccinated]</local-name>
+            <parent-name>[results_poster_1.csv]</parent-name>
+            <remote-alias>people_fully_vaccinated</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='People Vaccinated (%)' datatype='real' name='[Calculation_1277614939563991040]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[people_vaccinated] * 100 / ([Population in 2020 (Millions)] * 1000000)' />
+      </column>
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' hidden='true' name='[F1]' role='measure' type='quantitative' />
+      <column datatype='real' name='[GDP p/capita]' role='measure' type='quantitative' />
+      <column caption='People covered' datatype='real' name='[People_covered]' role='measure' type='quantitative' />
+      <column caption='Population Covered (%)' datatype='real' name='[Percent_pop_covered]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Population]' role='measure' type='quantitative' />
+      <column datatype='string' hidden='true' name='[Potential (1=yes, 0=no)1]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='results_poster_1.csv' datatype='table' name='[__tableau_internal_object_id__].[results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579]' role='measure' type='quantitative' />
+      <column caption='Last Update' datatype='date' hidden='true' name='[last_update]' role='dimension' type='ordinal' />
+      <column caption='People Fully Vaccinated' datatype='integer' name='[people_fully_vaccinated]' role='measure' type='quantitative' />
+      <column caption='People Vaccinated' datatype='integer' name='[people_vaccinated]' role='measure' type='quantitative' />
+      <column caption='Total Vaccinations' datatype='integer' name='[total_vaccinations]' role='measure' type='quantitative' />
+      <column caption='Vaccines' datatype='real' name='[vaccines]' role='measure' type='quantitative' />
+      <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+      <column-instance column='[GDP p/capita]' derivation='None' name='[none:GDP p/capita:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Population]' derivation='None' name='[none:Population:qk]' pivot='key' type='quantitative' />
+      <group hidden='true' name='[Exclusões (Country,GDP p/capita,Population)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Country:nk]' />
+          <groupfilter function='level-members' level='[none:GDP p/capita:qk]' />
+          <groupfilter function='level-members' level='[none:Population:qk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Portugal&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Country' />
+        <field-sort-custom-order field='GDP current prices in  2020 (Bilions U.S. dollar)' />
+        <field-sort-custom-order field='Population in 2020 (Millions)' />
+        <field-sort-custom-order field='GDP p/capita' />
+        <field-sort-custom-order field='Labs' />
+        <field-sort-custom-order field='vaccines' />
+        <field-sort-custom-order field='Population' />
+        <field-sort-custom-order field='Percent_pop_covered' />
+        <field-sort-custom-order field='People_covered' />
+        <field-sort-custom-order field='total_vaccinations' />
+        <field-sort-custom-order field='people_vaccinated' />
+        <field-sort-custom-order field='Calculation_1277614939563991040' />
+        <field-sort-custom-order field='people_fully_vaccinated' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='results_poster_1.csv' id='results_poster_1.csv_EF9921577EBD4E50AD230D5942B2A579'>
+            <properties context=''>
+              <relation connection='textscan.1ow7n550njdhq111zk9tw0d622ft' name='results_poster_1.csv' table='[results_poster_1#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='pt_PT' separator=';'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Country' ordinal='1' />
+                  <column datatype='real' name='GDP current prices in  2020 (Bilions U.S. dollar)' ordinal='2' />
+                  <column datatype='real' name='Population in 2020 (Millions)' ordinal='3' />
+                  <column datatype='real' name='GDP p/capita' ordinal='4' />
+                  <column datatype='string' name='Labs' ordinal='5' />
+                  <column datatype='real' name='vaccines' ordinal='6' />
+                  <column datatype='string' name='Potential (1=yes, 0=no)1' ordinal='7' />
+                  <column datatype='real' name='Population' ordinal='8' />
+                  <column datatype='real' name='Percent_pop_covered' ordinal='9' />
+                  <column datatype='real' name='People_covered' ordinal='10' />
+                  <column datatype='date' name='last_update' ordinal='11' />
+                  <column datatype='integer' name='total_vaccinations' ordinal='12' />
+                  <column datatype='integer' name='people_vaccinated' ordinal='13' />
+                  <column datatype='integer' name='people_fully_vaccinated' ordinal='14' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Planilha 1'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='results_poster_1' name='federated.12h6s1v1ppsrhy15ibp180ltkz3y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12h6s1v1ppsrhy15ibp180ltkz3y'>
+            <column caption='People Vaccinated (%)' datatype='real' name='[Calculation_1277614939563991040]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[people_vaccinated] * 100 / ([Population in 2020 (Millions)] * 1000000)' />
+            </column>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='real' name='[GDP p/capita]' role='measure' type='quantitative' />
+            <column caption='Population Covered (%)' datatype='real' name='[Percent_pop_covered]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Population in 2020 (Millions)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Population]' role='measure' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GDP p/capita]' derivation='None' name='[none:GDP p/capita:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Population]' derivation='None' name='[none:Population:qk]' pivot='key' type='quantitative' />
+            <column caption='People Vaccinated' datatype='integer' name='[people_vaccinated]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1277614939563991040]' derivation='Sum' name='[sum:Calculation_1277614939563991040:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Percent_pop_covered]' derivation='Sum' name='[sum:Percent_pop_covered:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[Exclusões (Country,GDP p/capita,Population)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Country:nk]' />
+                <groupfilter function='level-members' level='[none:GDP p/capita:qk]' />
+                <groupfilter function='level-members' level='[none:Population:qk]' />
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:Country:nk]' member='&quot;Austria&quot;' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:GDP p/capita:qk]' member='48634.336000000003' />
+                  <groupfilter function='member' level='[none:Population:qk]' member='447512041.0' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</column>
+            <column>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</column>
+            <column>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[Exclusões (Country,GDP p/capita,Population)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]' field-type='quantitative' max='149.51257101338939' min='-40.041911777880834' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]' field-type='quantitative' max='338.71286976151578' min='-29.176088504520791' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]' value='Segoe UI Semibold' />
+            <format attr='font-size' field='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]' value='10' />
+            <format attr='font-weight' field='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]' value='bold' />
+            <format attr='font-family' field='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]' value='Segoe UI Semibold' />
+            <format attr='font-size' field='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]' value='10' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:GDP p/capita:qk]' min='1332.5519999999999' num-steps='10' palette='green_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Country:nk]' />
+              <color column='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:GDP p/capita:qk]' />
+              <size column='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Population:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='10'>&lt;</run>
+                <run bold='true' fontsize='10'>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Country:nk]</run>
+                <run bold='true' fontsize='10'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='highlight' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</rows>
+        <cols>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Country:nk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:GDP p/capita:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Population:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;India&quot;</value>
+                <value>1876.5250000000001</value>
+                <value>1366417754.0</value>
+                <value>3.1030683487865431</value>
+                <value>4.0617153740000003</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Country:nk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:GDP p/capita:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Population:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;European Union&quot;</value>
+                <value>18059.42468</value>
+                <value>447512041.0</value>
+                <value>20.10511496949789</value>
+                <value>202.22919543699999</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Country:nk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:GDP p/capita:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Population:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Hungary&quot;</value>
+                <value>15372.885</value>
+                <value>9769949.0</value>
+                <value>12.613610256410256</value>
+                <value>10.235467964</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Country:nk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:GDP p/capita:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Population:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;United States&quot;</value>
+                <value>63051.398000000001</value>
+                <value>328239523.0</value>
+                <value>97.075352262052661</value>
+                <value>182.79334387199998</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Country:nk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:GDP p/capita:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Population:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;New Zealand&quot;</value>
+                <value>38675.319000000003</value>
+                <value>4917000.0</value>
+                <value>1.0800000000000001</value>
+                <value>133.21130770799999</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Country:nk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:GDP p/capita:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Population:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Japan&quot;</value>
+                <value>39047.860000000001</value>
+                <value>126264931.0</value>
+                <value>0.43115696564885497</value>
+                <value>124.34173032699999</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='7' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Country:nk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:GDP p/capita:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Population:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Chile&quot;</value>
+                <value>12612.322</value>
+                <value>18952038.0</value>
+                <value>94.933771839671124</value>
+                <value>243.77325541499999</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='8' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Country:nk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:GDP p/capita:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Population:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Canada&quot;</value>
+                <value>42080.050000000003</value>
+                <value>37589262.0</value>
+                <value>28.026755193268471</value>
+                <value>335.20211170900001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='10' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Country:nk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:GDP p/capita:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Population:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Australia&quot;</value>
+                <value>51885.466</value>
+                <value>25364307.0</value>
+                <value>0.97200622083981336</value>
+                <value>145.480024351</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='11' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Country:nk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:GDP p/capita:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Population:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Calculation_1277614939563991040:qk]</field>
+                  <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[sum:Percent_pop_covered:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;African Union&quot;</value>
+                <value>1771.6271489999999</value>
+                <value>1359998350.0</value>
+                <value>1.0937708858249717</value>
+                <value>29.044152884999999</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{CE43E1E8-EC3C-4910-996B-19A8D5A01130}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Planilha 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='2' param='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:GDP p/capita:qk]' type='color' />
+            <card pane-specification-id='2' param='[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Population:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:Country:nk]</field>
+            <field>[federated.12h6s1v1ppsrhy15ibp180ltkz3y].[none:GDP p/capita:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2C3EF3BD-7B82-45D2-981F-E956199C715B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Planilha 1' width='192'>
+      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
+      MMNlPQQCwAAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
